@@ -67,16 +67,16 @@ linklists:
   social:
     links:
       - title: "facebook"
-        url: "https://facebook.com"
+        url: "https://facebook.com/heberfuturi"
       - title: "instagram"
-        url: "https://instagram.com"
+        url: "https://instagram.com/heberfuturi"
 
 # Build settings
 plugins:
   - jekyll-feed
 
 # Exclude from processing.
-include: ["_templates"]
+include: ["_templates", "_pages"]
 exclude:
 - CNAME
 - Gemfile
