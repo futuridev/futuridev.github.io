@@ -1,0 +1,8 @@
+{% if site.settings.logo != blank %}
+  {%- capture logo_image_size -%}{{ site.settings.logo_width | escape }}x{%- endcapture -%}
+  {% include snippets/logo.svg class=include.class %}
+{% else %}
+  <span class="text-logo">
+    {{ site.title }}
+  </span>
+{% endif %}

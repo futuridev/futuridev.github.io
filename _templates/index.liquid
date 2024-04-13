@@ -1,0 +1,38 @@
+---
+layout: theme
+permalink: /index.html
+---
+<div class="main">
+  <div class="main__sections">
+    {%- assign heading = site.posts.first.title | upcase -%}
+
+    {% include sections/hero.liquid
+      heading=heading
+      text=site.posts.first.description
+      show_button1=true
+      button1_text='LEÉLO AHORA'
+      button1_url=site.posts.first.url
+      show_button2=false
+      button2_text="ENVIAR A KINDLE"
+      button2_url="#"
+      show_button3=false
+      button3_text="DESCARGAR"
+      button3_url="#"
+      image=site.posts.first.image
+      background_image=''
+      show_background_overlay=false
+      background_overlay_color='#3a3c45'
+      background_overlay_opacity=80
+      background_blend_mode='luminosity'
+      background_clip='none'
+      heading_size='large'
+    %}
+
+    {% include sections/recent-posts.liquid
+      heading=''
+      heading_alignment='left'
+      show_button=false
+      button_text='Browse all'
+    %}
+  </div>
+</div>

@@ -1,0 +1,90 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Your awesome title
+email: your-email@example.com
+description: >-
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: ""
+url: ""
+
+# URLS
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: /:categories/:title/
+
+# Settings
+settings:
+  logo: "/assets/futuri.svg"
+
+# Menus
+linklists:
+  main:
+    links:
+      - title: "Más"
+        url: "/about/"
+        links:
+          - title: "Sobre mí"
+            url: "/about/"
+          - title: "Github"
+            url: "https://github.com/futuri"
+          - title: "Youtube"
+            url: "https://youtube.com/@futuridev"
+          - title: "Instagram"
+            url: "https://instagram.com/heberfuturi"
+          - title: "Facebook"
+            url: "https://facebook.com/heberfuturi"
+          - title: "Behance"
+            url: "https://behance.com/futuri"
+  footer:
+    links:
+      - title: "Inicio"
+        url: "/"
+      - title: "Acerca de"
+        url: "/about/"
+  social:
+    links:
+      - title: "facebook"
+        url: "https://facebook.com"
+      - title: "instagram"
+        url: "https://instagram.com"
+
+# Build settings
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+include: ["_templates"]
+exclude:
+- CNAME
+- Gemfile
+- Gemfile.lock
+- node_modules/
+- vendor/
+- package.json
+- package-lock.json
+- webpack.config.js
+- styles
+- scripts
