@@ -18,12 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Futuri
+email: h@futuri.dev
 description: >-
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Creamos software; construimos puentes hacia el mañana. Somos arquitectos de la innovación, tejiendo códigos que moldean el porvenir. Con cada línea de código, trazamos el camino hacia un futuro más brillante, donde la tecnología impulsa el progreso y las posibilidades son infinitas.
 baseurl: ""
 url: ""
 
