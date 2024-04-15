@@ -44,30 +44,21 @@ linklists:
       - title: "Más"
         url: "/about/"
         links:
-          - title: "Sobre mí"
-            url: "/about/"
           - title: "Github"
-            url: "https://github.com/futuri"
+            url: "https://github.com/futuridev"
           - title: "Youtube"
             url: "https://youtube.com/@futuridev"
-          - title: "Instagram"
-            url: "https://instagram.com/heberfuturi"
-          - title: "Facebook"
-            url: "https://facebook.com/heberfuturi"
-          - title: "Behance"
-            url: "https://behance.com/futuri"
+
   footer:
     links:
       - title: "Inicio"
         url: "/"
-      - title: "Acerca de"
-        url: "/about/"
   social:
     links:
-      - title: "facebook"
-        url: "https://facebook.com/heberfuturi"
-      - title: "instagram"
-        url: "https://instagram.com/heberfuturi"
+      - title: "youtube"
+        url: "https://youtube.com/@futuridev"
+      - title: "github"
+        url: "https://github.com/futuridev"
 
 # Build settings
 plugins:
