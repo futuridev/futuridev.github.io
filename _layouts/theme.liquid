@@ -61,5 +61,18 @@
     {% include snippets/theme-js-data.liquid %}
 
     <script src="{{ "/assets/theme.js" | prepend: site.baseurl }}"></script>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId            : '961990212152805',
+          autoLogAppEvents : true,
+          xfbml            : true,
+          version          : 'v18.0'
+        });
+      };
+    </script>
+    <script async defer crossorigin="anonymous"
+      src="https://connect.facebook.net/en_US/sdk.js">
+    </script>
   </body>
 </html>
